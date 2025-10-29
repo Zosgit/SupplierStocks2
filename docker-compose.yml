@@ -6,7 +6,7 @@ services:
     container_name: symfony-app2
     working_dir: /app
     environment:
-      - WEB_DOCUMENT_ROOT=/app/public
+      - WEB_DOCUMENT_ROOT=/app/symfony/public
       - PHP_DATE_TIMEZONE=Europe/Warsaw
       - COMPOSER_ALLOW_SUPERUSER=1
     volumes:
