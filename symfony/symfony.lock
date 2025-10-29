@@ -127,5 +127,18 @@
             "config/packages/routing.yaml",
             "config/routes.yaml"
         ]
+    },
+    "zenstruck/foundry": {
+        "version": "2.7",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.7",
+            "ref": "135a835d9425f916e23f5509b2a48f70b4d986a5"
+        },
+        "files": [
+            "config/packages/zenstruck_foundry.yaml",
+            "src/Story/AppStory.php"
+        ]
     }
 }
