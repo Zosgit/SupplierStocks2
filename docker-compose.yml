@@ -21,7 +21,7 @@ services:
     container_name: symfony-db2
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=stocks
+      - MYSQL_DATABASE=stocks2
       - MYSQL_USER=stocks
       - MYSQL_PASSWORD=stocks
     ports:
