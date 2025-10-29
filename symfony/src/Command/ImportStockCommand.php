@@ -193,7 +193,7 @@ class ImportStockCommand extends Command
      * Split a line into fields depending on file format
      * Handles multiple CSV styles:
      *   - Lorotom - tab or multiple spaces
-     *   - Trah - semicolon + optional quotes
+     *   - Trah - semicolon + optional quotes 
      */
     private function smartSplit(string $line): array
     {
